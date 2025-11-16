@@ -1,9 +1,8 @@
-# Compatibility shim must be imported extremely early so third-party packages
-# (like pykeyboard) that expect top-level pyrogram attributes succeed.
+# Compatibility shim: ensure top-level pyrogram names exist before any module imports pyrogram/pykeyboard
 try:
     from .core.helpers import pyrogram_compat  # noqa: F401
 except Exception:
-    # If this fails, we'll let import errors surface later.
+    # If this fails, allow normal import errors to surface later.
     pass
 
 # --- the rest of your existing __init__.py follows ---
