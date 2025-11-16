@@ -37,6 +37,6 @@ ntgcalls==1.2.1
 numpy==1.26.4
 opencv-python-headless==4.10.0.82
 pyromod==1.5
-pykeyboard==0.3.2
+pykeyboard==0.1.0
 # Optional extras
 httpx[http2]==0.24.1
