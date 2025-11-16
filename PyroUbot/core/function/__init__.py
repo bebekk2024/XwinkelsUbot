@@ -1,2 +1,2 @@
 from PyroUbot.core.function.expired import *
-from PyroUbot.core.function.plugins import WANN *
+from PyroUbot.core.function.plugins import *
