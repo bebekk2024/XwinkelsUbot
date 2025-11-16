@@ -1,7 +1,7 @@
 from PyroUbot.core.helpers.anim_tool import *
 from PyroUbot.core.helpers._cmd import *
 from PyroUbot.core.helpers.get_file_id import *
-from PyroUbot.core.helpers.inline import WANN *
+from PyroUbot.core.helpers.inline import *
 from PyroUbot.core.helpers.font_help import *
 from PyroUbot.core.helpers.text import *
 from PyroUbot.core.helpers.tools import *
