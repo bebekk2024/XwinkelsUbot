@@ -1,1 +1,1 @@
-web: python start
+python3 -m PyroUbot
